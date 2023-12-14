@@ -4,36 +4,42 @@
     <meta charset="UTF-8">
     <meta name="author" content="Abby Chang"/>
     <meta name="description" content="個人履歷經驗求職簡述"/>
-    <link rel="icon" href="image/headshot.ico" type="image/x-icon"/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet"><style>.container{width: 700px;margin: 2em auto;}h1, h2{font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;color: rgb(36, 36, 36);font-weight: 700;}h1{font-size: 42px;margin-top: 1.19em;margin-bottom: 32px;line-height: 52px;letter-spacing: -0.011em;}h2{font-size: 20px;margin-bottom: -0.31em;font-weight: 600;margin-top: 1.72em;line-height: 24px;letter-spacing: 0px;color: rgb(36, 36, 36);}p{letter-spacing: -0.003em;line-height: 32px;margin-top: 2em;font-size: 20px;margin-bottom: -0.46em;font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;word-break: break-word;color: rgb(36, 36, 36);}blockquote{margin-left: -20px;padding-left: 23px;box-shadow: rgb(36, 36, 36) 3px 0px 0px 0px inset;box-sizing: inherit;margin: 0;margin-top: 2em;overflow-wrap: break-word;word-break: break-word;font-weight: 400;}blockquote>p{letter-spacing: -0.003em;line-height: 32px;margin-top: .5em;font-style: italic;margin-bottom: -0.46em;font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;color: rgb(36, 36, 36);font-size: 21px;}code>p{font-family: 'Source Sans 3', sans-serif;}</style>
+    <link rel="icon" href="image/headshot.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@600&display=swap" rel="stylesheet">
     <title>Hi I'm Abby Chang</title>
 </head>
 <body>
-   <div class="container"> 
-     <div>
-         <div>
-         <image src="image/headshot.jpg" width="190" height="200"></image>
-          <br />
-         <figcaption>張文咸</figcaption>
+   <div class="container">
+       <div id="introduction">
+         <div id="headshot">
+            <img src="image/headshot.jpg" width="190" height="200">
+            <figcaption style="width:90px;margin-left:68px;font-size: 20px">張文咸</figcaption>
          </div>
-         <div>
+         <div id="pre">
             <pre>原任職於旅行社擔任OP三年，
 因深覺此職位的發展性有限故選擇轉職工程師。
 原工作主要內容：政府標案及專案管理、旅行遊程文案規劃、
 洽談廠商合作、客戶溝通......等。
-個性隨和、喜歡團隊合作，喜歡不斷嘗試新事務，
-喜歡解決問題後獲得的成就感。
+個性隨和、喜歡團隊合作，
+喜歡不斷嘗試新事務，喜歡解決問題後獲得的成就感。
             </pre>
-             <div>
-                 <image src="image/emailicon.png" width="30" height="30"></image>
-                 <p>abby010257@gmail.com</p>
-             </div>
-             <br />
-             <div>
-                 <image src="image/phoneicon.png" width="30" height="30"></image>
-                 <p>0903108320</p>
-             </div>
          </div>
-         <h2>教育背景&#38;學習、工作經歷</h2>
+         <div id=emailphone>
+            <table>
+            <tr>
+               <td><img src="image/emailicon.png" width="30" height="30"></td>
+               <td width="210">abby010257@gmail.com</td>
+               <td ><img src="image/phoneicon.png" width="30" height="30"></td>
+               <td>0903108320</td>
+            </tr>
+           </table>
+         </div>
+       </div>
+       
+        <h2>教育背景&#38;學習、工作經歷</h2>
          <div>
              <ul>
                 <li>國立暨南國際大學觀光休閒與餐旅管理學系（2015.09-2020.01）<br />課程|產品開發與遊程設計、旅運管理</li>
@@ -95,11 +101,12 @@
                 </ul>
          </ul>
          </div>
-    </div>
-    <video width="720" height="480" controls muted loop poster="image/whale01.jpg">
+         <div>
+            <video width="720" height="480" controls muted loop poster="image/whale01.jpg">
            <source src="image/pexels-kammeran-gonzalezkeola-17838421%20(2160p).mp4" type="video/mp4">
-    </video>
-    </div>
-    <a href="myform.html">register</a>
+             </video>
+        </div>
+       <a href="myform.html">register</a>
+    </div> 
 </body>
 </html>

@@ -1,0 +1,34 @@
+.container{
+    width: 700px;
+    margin: 2em auto;
+}
+#introduction{
+    width: 690px;
+    height: 250px;
+    position:relative;
+}
+#headshot{
+    width: 202px;
+    height: 230px;
+    position:absolute;
+    top: 15px;
+    left: 5px;
+}
+#pre{
+    width: 490px;
+    height: 200px;
+    position:absolute;
+    font-size: 17px;
+    top: 15px;
+    left: 210px;
+}
+#emailphone{
+    width: 400px;
+    height: 35px;
+    position:absolute;
+    top: 190px;
+    left: 230px;
+}
+figcaption{
+    font-family: 'Noto Sans TC', sans-serif;
+}
