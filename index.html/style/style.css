@@ -1,0 +1,90 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.container{
+    width: 700px;
+    margin: 2em auto; 
+}
+.introduction{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 18px;
+    width: 690px;
+    height: 250px;
+    position:relative;
+    background-image:url(image/backgroung-1.jpg);
+    background-size:cover;
+    border-radius: 30px; 
+}
+.headshot{
+    width: 202px;
+    height: 230px;
+    position:absolute;
+    top: 15px;
+    left:10px;
+    border-radius: 50px;
+}
+.heahshoticon{
+    border-radius: 100px;
+}
+img{
+    vertical-align: middle;
+}
+.pre{
+    width: 470px;
+    height: 200px;
+    position:absolute;
+    font-size: 17px;
+    top: 15px;
+    left: 215px;
+}
+.emailphone{
+    width: 400px;
+    height: 35px;
+    position:absolute;
+    top: 190px;
+    left: 230px;
+}
+figcaption{
+    width:90px;
+    margin-left:68px;
+    font-size: 20px;
+    font-weight: bold;
+}
+h2{
+    width: fit-content;
+    vertical-align: middle;
+    background-color:#FFF3EE;
+    border-bottom: 2px solid black;
+}
+.discription{
+    list-style: none;
+    text-indent:-40px;    
+}
+.item{
+    color: brown;
+}
+.deepitem{
+    color: brown;
+    list-style: none;
+    text-indent:110px;
+}
+li.workdiscription{
+    list-style: none;
+}
+.other{
+    width: 690px;
+    height: 80px;
+}
+.language{
+    position:relative;
+    bottom: 82px;
+    left: 180px;
+}
+.othertech{
+    position:relative;
+    bottom: 169px;
+    left: 390px;
+}
+
+
+
