@@ -68,9 +68,6 @@ h2{
     list-style: none;
     text-indent:110px;
 }
-li.workdiscription{
-    list-style: none;
-}
 .other{
     width: 690px;
     height: 80px;
@@ -85,6 +82,8 @@ li.workdiscription{
     bottom: 169px;
     left: 390px;
 }
-
+.workdip{
+   list-style: none; 
+}
 
 
